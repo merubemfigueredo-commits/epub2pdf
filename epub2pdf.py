@@ -85,8 +85,7 @@ with tab_convert:
         st.session_state.result = None
         st.session_state.result_key = None
         st.info(
-            "Envie um arquivo EPUB para começar. Não tem um em mãos? "
-            "Baixe o livro de exemplo abaixo e teste a conversão."
+            "Envie um arquivo EPUB para começar."         
         )
     """    st.download_button(
             "Baixar EPUB de exemplo",
@@ -94,7 +93,7 @@ with tab_convert:
             file_name="livro-exemplo.epub",
             mime="application/epub+zip",
         ) """
-    else:
+    """ else: """
         data = uploaded.getvalue()
         if len(data) > MAX_BYTES:
             st.error(
