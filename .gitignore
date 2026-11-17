@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pythonlibs/
+.env
+.streamlit/secrets.toml
+*.pdf
+*.epub
+.DS_Store
