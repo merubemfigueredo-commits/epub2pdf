@@ -88,12 +88,12 @@ with tab_convert:
             "Envie um arquivo EPUB para começar. Não tem um em mãos? "
             "Baixe o livro de exemplo abaixo e teste a conversão."
         )
-        st.download_button(
+    """    st.download_button(
             "Baixar EPUB de exemplo",
             data=create_sample_epub(),
             file_name="livro-exemplo.epub",
             mime="application/epub+zip",
-        )
+        ) """
     else:
         data = uploaded.getvalue()
         if len(data) > MAX_BYTES:
