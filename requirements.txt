@@ -1,0 +1,5 @@
+# Envie este arquivo junto do script principal (app.py ou epub2pdf.py).
+# Necessário para validar com segurança o XML dos arquivos EPUB.
+streamlit==1.67.0
+PyMuPDF==2.1
+defusedxml==0.7.1
