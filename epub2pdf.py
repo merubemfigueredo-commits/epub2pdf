@@ -11,7 +11,7 @@ from pathlib import Path
 import streamlit as st
 
 from converter import MAX_UPLOAD_MB, ConversionError, convert_epub
-from sample_book import create_sample_epub
+""" from sample_book import create_sample_epub """
 
 BASE_DIR = Path(__file__).parent
 SOURCE_FILES = [
