@@ -94,7 +94,7 @@ with tab_convert:
             mime="application/epub+zip",
         ) """
     """ else: """
-        data = uploaded.getvalue()
+    """    data = uploaded.getvalue() """
         if len(data) > MAX_BYTES:
             st.error(
                 f"Este arquivo tem {len(data) / (1024 * 1024):.1f} MB e ultrapassa o "
